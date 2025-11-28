@@ -1,0 +1,79 @@
+.App {
+  min-height: 100vh;
+  background: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Consolas", monospace;
+}
+
+.generator {
+  background: #1A1A1A;
+  padding: 30px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00FF6A50;
+  border: 1px solid #00ff6a60;
+}
+
+.generator__header {
+  color: #00FF6A;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.generator__password {
+  background: #000;
+  padding: 15px;
+  border: 1px solid #00FF6A;
+  border-radius: 5px;
+  color: #00FF6A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.copy__btn {
+  background: transparent;
+  color: #00FF6A;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.copy__btn:hover {
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: #00FF6A;
+  margin-bottom: 15px;
+}
+
+.pw {
+  width: 70px;
+  background: black;
+  color: #00FF6A;
+  border: 1px solid #00FF6A;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.generator__btn {
+  width: 100%;
+  padding: 12px;
+  background: #00FF6A;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.generator__btn:hover {
+  background: #00cc55;
+}
